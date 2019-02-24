@@ -21,7 +21,7 @@ Se dice que la clase es un mecanismo de abstracción porqué abstrae las caracte
 Es una manera de esconder los datos (atributos y métodos) en los llamados objetos. Esto para evitar problemas de dependencia de un fragmento de código con otro, o sea, para modularizar el código. De esta manera, se tiene el código separado en pequeños fragmentos **_"Independientes"_**, aunque no son realmente 100% independientes, de serlo, no interactuarían con el código y serían inutiles, lo que se intenta es que estos fragmentos esten lo menos conectados posible _-no que no lo esten_ para no depender tanto de otros, y de esta manera, al cambiar un dato en algún fragmento, esto no afecte en todo el código, la importancia de esto se aprecia en códigos grandes.
 
 ### _Sistema sin encapsulamiento_
-![alt text](https://github.com/Hernandez9029/Tareas-POO/Imagenes_POO/Herencia1.JPG)
+[imagen]
 
 ### _Sistema con encapsulamiento_
 [imagen]
@@ -29,7 +29,7 @@ Es una manera de esconder los datos (atributos y métodos) en los llamados objet
 ## Herencia
 La herencia es cuando, como su nombre lo dice, hacemos que una clase *_Herede_* los atributos y métodos de otra. A la clase de la cual se heredan atributos se llama *_Clase Padre_* y a la que hereda dichos atributos se le llama *_Clase Hija_*. A la clase hija podemos agregarle más atributos y métodos de los que ya obtuvo por medio de la herencia, esto con el proposito de no tener que copiar y pegar innecesariamente todo el código de una clase en otra.
 
-[imagen]
+[Imagenes_POO/Herencia1.JPG]
 
 # Historia de UML
 Texto de prueba
