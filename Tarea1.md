@@ -24,7 +24,10 @@ Es una manera de esconder los datos (atributos y métodos) en los llamados objet
 [imagen]
 
 ### _Sistema con encapsulamiento_
-[imagen]
+![objeto automovil](https://user-images.githubusercontent.com/47732464/53306393-63ce3980-3841-11e9-97a2-00bf6185f060.png)
+![sinencap](https://user-images.githubusercontent.com/47732464/53306394-6466d000-3841-11e9-9c42-1dc0afa1fd3c.JPG)
+![clasecoche](https://user-images.githubusercontent.com/47732464/53306395-69c41a80-3841-11e9-8561-e080650f3c04.png)
+![coshe](https://user-images.githubusercontent.com/47732464/53306396-69c41a80-3841-11e9-9dec-13771a9595c0.png)
 
 ## Herencia
 La herencia es cuando, como su nombre lo dice, hacemos que una clase *_Herede_* los atributos y métodos de otra. A la clase de la cual se heredan atributos se llama *_Clase Padre_* y a la que hereda dichos atributos se le llama *_Clase Hija_*. A la clase hija podemos agregarle más atributos y métodos de los que ya obtuvo por medio de la herencia, esto con el proposito de no tener que copiar y pegar innecesariamente todo el código de una clase en otra.
