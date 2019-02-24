@@ -29,7 +29,8 @@ Es una manera de esconder los datos (atributos y métodos) en los llamados objet
 ## Herencia
 La herencia es cuando, como su nombre lo dice, hacemos que una clase *_Herede_* los atributos y métodos de otra. A la clase de la cual se heredan atributos se llama *_Clase Padre_* y a la que hereda dichos atributos se le llama *_Clase Hija_*. A la clase hija podemos agregarle más atributos y métodos de los que ya obtuvo por medio de la herencia, esto con el proposito de no tener que copiar y pegar innecesariamente todo el código de una clase en otra.
 
-! [hola] (Imagenes_POO/Herencia1.JPG)
+![herencia1](https://user-images.githubusercontent.com/47732464/53305745-0edaf500-383a-11e9-8b59-85a6fdccceba.JPG)
+![herencia2](https://user-images.githubusercontent.com/47732464/53305746-0edaf500-383a-11e9-92c5-8cd55e94e9e5.JPG)
 
 # Historia de UML
 Texto de prueba
