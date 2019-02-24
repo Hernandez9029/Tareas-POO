@@ -37,4 +37,6 @@ La herencia es cuando, como su nombre lo dice, hacemos que una clase *_Herede_* 
 ![herencia2](https://user-images.githubusercontent.com/47732464/53305746-0edaf500-383a-11e9-92c5-8cd55e94e9e5.JPG)
 
 # Historia de UML
-Texto de prueba
+**"The Three Amigos"** (los tres amigos) de la ingeniería de software, como se los conocía, habían desarrollado otras metodologías. Se asociaron para brindar claridad a los programadores creando nuevos estándares. La colaboración entre Grady, Booch y Rumbaugh fortaleció los tres métodos y mejoró el producto final.
+
+Los esfuerzos de estos pensadores derivaron en la publicación de los documentos UML 0.9 y 0.91 en 1996. Pronto se hizo evidente que varias organizaciones, incluidas Microsoft, Oracle e IBM, consideraron que UML era esencial para su propio desarrollo de negocios. Ellos, junto con muchas otras personas y compañías, establecieron los recursos necesarios para desarrollar un lenguaje de modelado hecho y derecho. "Los tres amigos" publicaron la Guía del usuario para el Lenguaje Unificado de Modelado en 1999, y una actualización que incluye información sobre UML 2.0 en la segunda edición de 2005.
