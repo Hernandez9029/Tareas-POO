@@ -21,7 +21,7 @@ Se dice que la clase es un mecanismo de abstracción porqué abstrae las caracte
 Es una manera de esconder los datos (atributos y métodos) en los llamados objetos. Esto para evitar problemas de dependencia de un fragmento de código con otro, o sea, para modularizar el código. De esta manera, se tiene el código separado en pequeños fragmentos **_"Independientes"_**, aunque no son realmente 100% independientes, de serlo, no interactuarían con el código y serían inutiles, lo que se intenta es que estos fragmentos esten lo menos conectados posible _-no que no lo esten_ para no depender tanto de otros, y de esta manera, al cambiar un dato en algún fragmento, esto no afecte en todo el código, la importancia de esto se aprecia en códigos grandes.
 
 ### _Sistema sin encapsulamiento_
-[imagen]
+![alt text](https://github.com/Hernandez9029/Tareas-POO/Imagenes_POO/Herencia1.JPG)
 
 ### _Sistema con encapsulamiento_
 [imagen]
