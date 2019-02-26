@@ -18,7 +18,7 @@ Se dice que la clase es un mecanismo de abstracción porqué abstrae las caracte
 # Concepto de encapsulamiento explicado con dos imagenes
 
 ## Encapsulamiento
-Es una manera de esconder los datos (atributos y métodos) en los llamados objetos. Esto para evitar problemas de dependencia de un fragmento de código con otro, o sea, para modularizar el código. De esta manera, se tiene el código separado en pequeños fragmentos **_"Independientes"_**, aunque no son realmente 100% independientes, de serlo, no interactuarían con el código y serían inutiles, lo que se intenta es que estos fragmentos esten lo menos conectados posible _-no que no lo esten_ para no depender tanto de otros, y de esta manera, al cambiar un dato en algún fragmento, esto no afecte en todo el código, la importancia de esto se aprecia en códigos grandes.
+Es una manera de esconder los datos (atributos y métodos) en los llamados objetos. Esto para evitar problemas de dependencia de un fragmento de código con otro, o sea, para modularizar el código. De esta manera, se tiene el código separado en pequeños fragmentos **_"Independientes"_**, aunque no son realmente 100% independientes, de serlo, no interactuarían con el código y serían inutiles, lo que se intenta es que estos fragmentos esten lo menos conectados posible **_-no que no lo esten-_** para no depender tanto de otros, y de esta manera, al cambiar un dato en algún fragmento, esto no afecte en todo el código, la importancia de esto se aprecia en códigos grandes.
 
 ### _Sistema sin encapsulamiento_
 ![sinencap](https://user-images.githubusercontent.com/47732464/53306394-6466d000-3841-11e9-9c42-1dc0afa1fd3c.JPG)
@@ -37,9 +37,13 @@ La herencia es cuando, como su nombre lo dice, hacemos que una clase *_Herede_* 
 ![herencia2](https://user-images.githubusercontent.com/47732464/53305746-0edaf500-383a-11e9-92c5-8cd55e94e9e5.JPG)
 
 # Historia de UML
-**"The Three Amigos"** (los tres amigos) de la ingeniería de software, como se los conocía, habían desarrollado otras metodologías. Se asociaron para brindar claridad a los programadores creando nuevos estándares. La colaboración entre Jacobson, Booch y Rumbaugh fortaleció los tres métodos y mejoró el producto final.
+**UML** _(Lenguaje Unificado de Modelado)_ comenzó a gestarse en 1994, cuando Jim Rumbaugh se unió a la compañía Rational Software Corporation fundada por Grady Booch, dos respetados investigadores en el área de desarrollo de notaciones para el análisis y diseño de sistemas orientados a objetos, cuya herramienta era Rational Rose.
 
-Los esfuerzos de estos pensadores derivaron en la publicación de los documentos UML 0.9 y 0.91 en 1996. Pronto se hizo evidente que varias organizaciones, incluidas Microsoft, Oracle e IBM, consideraron que UML era esencial para su propio desarrollo de negocios. Ellos, junto con muchas otras personas y compañías, establecieron los recursos necesarios para desarrollar un lenguaje de modelado hecho y derecho. "Los tres amigos" publicaron la Guía del usuario para el Lenguaje Unificado de Modelado en 1999, y una actualización que incluye información sobre UML 2.0 en la segunda edición de 2005.
+El objetivo de los dos investigadores era unificar dos métodos que habían desarrollado: el método Booch, que describe conjunto de objetos y sus relaciones  y el OMT (Object Modelling Tool) de Rumbaugh, orientada a objetos,  que combinaban notaciones provenientes de modelado orientado a objetos, a datos, a componentes y a flujos de trabajos. En esa misma época otro reputado investigador,  Ivar Jacobson,  cuya metodología es más centrada al usuario y a casos de uso (use case), se unió  a Rational Software y se incluyeron ideas suyas. Estas tres personas son conocidas como los “tres amigos”. Construyeron lo que hoy conocemos como UML.
+
+Este lenguaje manejaba diversos métodos, técnicas y aspectos en común pero utilizando diversas notaciones; inconvenientes para el aprendizaje, aplicaciones y uso de herramientas y además competía entre distintos enfoques, por lo tanto debía establecer una notación estándar. Que se fue fomentando hasta lograr la aceptación de **OMG** _(Grupo de administración de objetos)_ como notación estándar, el estándar líder en la industria para la programación de objetos distribuidos, quienes lo adoptaron para el análisis y el diseño orientado a objetos.
+
+Es el primer método en publicar su propia notación, incluyendo la notación para la mayoría de la información de requisitos, análisis y diseño. El lenguaje de modelado unificado se usa para entender, diseñar, configurar, mantener y controlar la información sobre los sistemas a construir. Y pretende unificar las experiencias pasadas sobre técnicas de modelado e incorporar las mejores prácticas actuales en un acercamiento estándar.
 
 ## Tipo de sistema en que se utiliza UML
 
