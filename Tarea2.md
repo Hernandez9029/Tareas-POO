@@ -41,3 +41,6 @@ Existen métodos y propiedades que se crean con el fin de invocarlos fuera de la
 #### Métodos de extensión
 
 #### Variables locales con asignación implícita
+
+## Operador new
+Este operador se utiliza para crear nuevos objetos.
