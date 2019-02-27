@@ -46,4 +46,19 @@ Existen métodos y propiedades que se crean con el fin de invocarlos fuera de la
 Este operador se utiliza para crear nuevos objetos.
 
 ## 2.3 Referencia al objeto actual
-This para evitar ambigüedades:
+**This para evitar ambigüedades:**
+//Constructor
+
+        public Contacto(string nombre, string co, string cel)
+        {
+            this.nombre = nombre;
+            correo = co;
+            celular = cel;
+        }
+
+        public void imprime()
+        {
+            //impresión del constructor
+            Console.WriteLine("{0}, {1}, {2}", nombre, correo, celular);
+        }
+**This como parámetro:**
