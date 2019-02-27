@@ -1,7 +1,7 @@
 # Tarea 2
 Aqui se encuentran los trabajos de la tarea 2
 
-## Resumen
+## 2.1 Declaración de clases: atributos, métodos, encapsulamiento
 #### Clases y estructuras
 Las clases y estructuras se usan el la POO y son estructuras que encapsulan datos, dichos datos son parte de estas clases o estructuras y son lo que conocemos como **_atributos y métodos_**. Estas clases o estructuras se utilizan para crear objetos, declarando variables y asignandole a estas los datos de la clase, funciona como un raferencia. Se utiliza la clase como un tipo de dato, de esta manera, un objeto de la clase "Person" **(suponiendo que creamos una clase con ese nombre)** es del **_tipo de dato_** Person, el objeto en cuestion es una variable que podemos declarar con el nombre que queramos.
 
@@ -42,5 +42,8 @@ Existen métodos y propiedades que se crean con el fin de invocarlos fuera de la
 
 #### Variables locales con asignación implícita
 
-## Operador new
+## 2.2 Instanciación de una clase
 Este operador se utiliza para crear nuevos objetos.
+
+## 2.3 Referencia al objeto actual
+This para evitar ambigüedades:
