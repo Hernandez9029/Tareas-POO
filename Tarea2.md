@@ -22,3 +22,22 @@ Los métodos, propiedades, eventos y constructores se declaran dentro de un tipo
 + Tipos anidados
 
 #### Accesibilidad
+Existen métodos y propiedades que se crean con el fin de invocarlos fuera de la clase o estructura **(se le llama códido de cliente)**, mientras que otros se crean para usarse únicamente dentro de la clase o estructura. El que se hará con los métodos o propiedades se llama **_Accesibilidad_**, como se podrá suponer, es definir si se tendrá acceso con los datos fuera de la clase o no. Esto sirve para el caso que necesites accesar a datos desde fuera de la clase a pesar de estar encapsulados. Se define el tipo de accesibilidad con los **_Modificadores de acceso_** public, protected, internal, protected internal, private y private protected, el que más se usa es private.
+
+#### Herencia
+
+#### Interfaces
+
+#### Tipos genéricos
+
+#### Tipos estáticos
+
+#### Tipos anidados
+
+#### Inicializadores de objeto
+
+#### Tipos anónimos
+
+#### Métodos de extensión
+
+#### Variables locales con asignación implícita
