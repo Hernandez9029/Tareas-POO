@@ -75,7 +75,10 @@ Se pueden declarar los parámetros para un método mediante **palabras clave** c
 
 + **Params:** Este define que un parámetro tomará un número variable de argumentos.
 + **in:** El parámetro se pasará por medio de referencia, sin embargo, solo se podrá leer con el método llamado.
-+ **ref:**
++ **ref:** Indica que un parámetro se pasa mediante referencia y no mediante un valor.
++ **out:** Hace que los argumentos pasen por referencia, se diferencia de ref porque esta no requiere que se inicialice la variable antes de pasarla.
+
+ ## 2.5 Constructores y destructores: declaración, uso y aplicaciones.
 
 
 
