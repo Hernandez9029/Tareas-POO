@@ -55,7 +55,7 @@ Permiten agregar métodos a las clases existentes sin crear otra clase completam
 Son variables locales que no especifican de que tipo son. Para hacer esto, se inicializan con _**var**_, esto le dice al compilador que infiera el tipo de la variable usando las expresiones u operaciones que realize dicha variable, basicamente, mira sus datos y con base a ellos le asigna un tipo de variable.
 
 ## 2.2 Instanciación de una clase
-Este operador se utiliza para crear nuevos objetos.
+Cuando se crean una clase, a momento de crear un objeto referenciando a dicha clase, se dice que se crea un objeto del _**tipo**_ de esa clase, para la creación de estos objetos se usa el _**new**_ que indica de que tipo es el objeto que se esta creando.
 
 ## 2.3 Referencia al objeto actual
 
@@ -70,3 +70,16 @@ Este operador se utiliza para crear nuevos objetos.
         {
             Console.WriteLine("{0}, {1}, {2}", nombre, correo, celular);
         }
+## 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores.
+Se pueden declarar los parámetros para un método mediante **palabras clave** como params, in, ref y out. De esta manera pueden cambiar el comportamiento de los parámetros, para, por ejemplo, los siguientes casos:
+
++ **Params:** Este define que un parámetro tomará un número variable de argumentos.
++ **in:** El parámetro se pasará por medio de referencia, sin embargo, solo se podrá leer con el método llamado.
++ **ref:**
+
+
+
+
+
+
+ 
