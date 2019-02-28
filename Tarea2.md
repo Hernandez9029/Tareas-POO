@@ -79,7 +79,7 @@ Se pueden declarar los parámetros para un método mediante **palabras clave** c
 + **out:** Hace que los argumentos pasen por referencia, se diferencia de ref porque esta no requiere que se inicialice la variable antes de pasarla.
 
  ## 2.5 Constructores y destructores: declaración, uso y aplicaciones.
-
+Los constructores no son nadamas que métodos pertenecientes a una clase, cuando se hace la herencia entre clases no se heredan los constructores, pero puedes heredar construtores de otra manera. Los constructores tienen el nombre de la clase a la que pertenecen e inicializan los miembros de la misma, puedes crear varios constructores con el mismo nombre, mientras los miembros que se inicialicen sean diferentes. Un constructor predeterminado es aquel que no toma ningún parámetro.
 
 
 
