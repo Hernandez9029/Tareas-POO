@@ -79,10 +79,4 @@ Se pueden declarar los parámetros para un método mediante **palabras clave** c
 + **out:** Hace que los argumentos pasen por referencia, se diferencia de ref porque esta no requiere que se inicialice la variable antes de pasarla.
 
  ## 2.5 Constructores y destructores: declaración, uso y aplicaciones.
-Los constructores no son nadamas que métodos pertenecientes a una clase, cuando se hace la herencia entre clases no se heredan los constructores, pero puedes heredar construtores de otra manera. Los constructores tienen el nombre de la clase a la que pertenecen e inicializan los miembros de la misma, puedes crear varios constructores con el mismo nombre, mientras los miembros que se inicialicen sean diferentes. Un constructor predeterminado es aquel que no toma ningún parámetro.
-
-
-
-
-
- 
+Los constructores no son nadamas que métodos pertenecientes a una clase, cuando se hace la herencia entre clases no se heredan los constructores, pero puedes heredar construtores de otra manera. Los constructores tienen el nombre de la clase a la que pertenecen e inicializan los miembros de la misma, puedes crear varios constructores con el mismo nombre, mientras los miembros que se inicialicen sean diferentes. Un constructor predeterminado es aquel que no toma ningún parámetro. A menos que la clase sea **static** a una clase sin constructor se le asigna uno predeterminado automaticamente. puedes convertir el constructor a pruvado para evitar que se creen instancias de clase. Cuando se trata de constructores para los tipo **struct** no se puede tener un constructor predeterminado, el compilador ya lo proporciona, este constructor inicializa los campos del struct con los valores predeterminados. Se puede alterar el constructor con los modificadores de acceso **public, private, protected, internal o protectedinternal** para definir como se construye la clase.
