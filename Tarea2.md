@@ -37,7 +37,7 @@ Implementan el concepto de parámetros de tipo que aplazan la declaración del t
 Las clases pueden declararse como **_static_** y dicha clase solo puede contener miembros estáticos y no se puede usar el _new_ para crear una instancia de ellas. Los miembros de la clase estática son accesibles de manera _"global"_ en cualquier parte del programa usando su nombre.
 
 #### Tipos anidados
-Las clases y estructuras se pueden anidar dentro de otra.
+Independientemente de si es una clase o estructura, el tipo anidado se establece de manera predeterminada con private. También puedes ponerles un modificador de acceso como public, protected, internal, protected internal, private o private protected.
 
 #### Tipos parciales
 Con ellos puedes definir parte de una clase, estructura o método en dos diferentes archivos de código, una parte en un archibo y la otra en otro independiente del primero.
