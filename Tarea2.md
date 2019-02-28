@@ -25,28 +25,39 @@ Los métodos, propiedades, eventos y constructores se declaran dentro de un tipo
 Existen métodos y propiedades que se crean con el fin de invocarlos fuera de la clase o estructura **(se le llama códido de cliente)**, mientras que otros se crean para usarse únicamente dentro de la clase o estructura. El que se hará con los métodos o propiedades se llama **_Accesibilidad_**, como se podrá suponer, es definir si se tendrá acceso con los datos fuera de la clase o no. Esto sirve para el caso que necesites accesar a datos desde fuera de la clase a pesar de estar encapsulados. Se define el tipo de accesibilidad con los **_Modificadores de acceso_** public, protected, internal, protected internal, private y private protected, el que más se usa es private.
 
 #### Herencia
+Se trata de una clase que adquiere todos los miembros de otra **(excepto constructores y destructores)**. Puedes declarar las clases de diferentes maneras, para cambiar cosas como que un método de la clase no tenga implementación **(se hace con abstract)** o que no se pueda heredar de ella **(declarandola con sealed)**. A una clase que hereda puedes agregarle más miembros, la herencia es para no tener que copiar código en quien sabe cuantas clases, creando una clase base que tenga miembros que necesites en otras.
 
 #### Interfaces
+También se puede heredar **_interfaces_**. Las clases y estructuras heredan todos los métodos de dicha interfaz. Mediante ella puedes hacer cosas como incluír varios miembros de algunas clase.
 
 #### Tipos genéricos
+Implementan el concepto de parámetros de tipo que aplazan la declaración del tipo de una clase o método, de esta manera se permiten varios tipos usando una sola clase.
 
 #### Tipos estáticos
+Las clases pueden declararse como **_static_** y dicha clase solo puede contener miembros estáticos y no se puede usar el _new_ para crear una instancia de ellas. Los miembros de la clase estática son accesibles de manera _"global"_ en cualquier parte del programa usando su nombre.
 
 #### Tipos anidados
+Las clases y estructuras se pueden anidar dentro de otra.
+
+#### Tipos parciales
+Con ellos puedes definir parte de una clase, estructura o método en dos diferentes archivos de código, una parte en un archibo y la otra en otro independiente del primero.
 
 #### Inicializadores de objeto
+Con ellos se crean instancias de objetos **(o conjuntos de objetos)** de alguna clase o estructura para inicializarlos sin llamar explícitamente a su constructor.
 
 #### Tipos anónimos
+Se utilizan cuando es innecesario o de plano es inconveniente crear una clase con nombre, como al crear una lista de estructuras de datos que no se conservan.
 
 #### Métodos de extensión
+Permiten agregar métodos a las clases existentes sin crear otra clase completamente nueva que derive de esta. Se les llama como si fueran métodos de instancia.
 
 #### Variables locales con asignación implícita
+Son variables locales que no especifican de que tipo son. Para hacer esto, se inicializan con _**var**_, esto le dice al compilador que infiera el tipo de la variable usando las expresiones u operaciones que realize dicha variable, basicamente, mira sus datos y con base a ellos le asigna un tipo de variable.
 
 ## 2.2 Instanciación de una clase
 Este operador se utiliza para crear nuevos objetos.
 
 ## 2.3 Referencia al objeto actual
-**This para evitar ambigüedades:**
 
         public Contacto(string nombre, string co, string cel)
         {
@@ -59,4 +70,3 @@ Este operador se utiliza para crear nuevos objetos.
         {
             Console.WriteLine("{0}, {1}, {2}", nombre, correo, celular);
         }
-**This como parámetro:**
