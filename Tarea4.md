@@ -4,3 +4,11 @@ Regresa 10 y 10.
 10 y 15.
 ### 1.3. ¿Que palabra debes agregar en la linea (public _______ string Display()) al definir A.Display()?
 Virtual.
+
+### 2.2. Hay un error en uno de los puntos (A)(B)(C)(D). ¿Cuál es y por qué?
+
+### 2.3. ¿Qué método se debe implementar obligatoriamente en ambas clases y por qué?
+
+### 2.4. ¿Por qué no se ponen las llaves en (B)?, ¿Cuando si se pondrían?
+
+### 2.5. ¿Qué pasa si el método Afina() lo hacemos virtual en lugar de abstract?
