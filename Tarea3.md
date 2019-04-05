@@ -5,8 +5,8 @@ Se le llama de diferentes maneras, clase base, clase madre o clase padre, y es l
 #### Clase Derivada
 La clase derivada (también llamada clase hija) es la clase que hereda los métodos y atributos de la clase base, por eso el nombre de _"derivada"_, ya que deriva de la clase base. A partir de los atributos y métodos que herada la clase derivada se crean nuevos para el propocito que queramos, pero la heredación es para ahorrarnos el tener que repetir código.
 
- # 2.0 y 3.0 Diagrama UML
- ![umlclassFigura](https://user-images.githubusercontent.com/47732464/55600053-585b1180-570f-11e9-8f24-5e1cfb47ef6d.JPG)
+ # 2.0 y 3.0 Diagrama UML 
+ ![FiguraUML](https://github.com/Hernandez9029/Imagenes_POO/blob/master/umlclassFigura.JPG)
 
 # 4.0 Herencia
 #### Herencia simple
