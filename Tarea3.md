@@ -14,3 +14,6 @@ Es la _**"Herencia"**_ o el traspaso de los _miembros_ de una clase a otra, por 
 
 #### Herencia multiple
 Es basicamente lo mismo que la herencia simple, la diferencia esta en la forma de heredar. Mientras en la herencia simple hay muchas clases heredando miembros de una sola clase base, en la herencia multiple hay una clase heredando miembros de varias clases al mismo tiempo.
+
+# 5.2 Palabra base
+Nos sirve para que un constructor herede de otro constructor, a diferencia de con **this**, con **base** se le dice al programa que se refiere al constructor de la clase base y no a otro constructor que pudiesemos tener con el mismo nombre.
